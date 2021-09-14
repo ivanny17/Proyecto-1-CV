@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/I2.png" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="home" class="header">
+        <div class="logo">
+            <a href="#home">
+                <h2>Ivanny <span>17</span></h2>
+            </a>
+        </div>
+        <article class="menu-content">
+            <button id="menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+            </button>
+                <nav class="menu">
+                    <a href="#home">Inicio</a>
+                    <a href="#about">Acerca</a>
+                    <a href="#portfolio">Portafolio</a>
+                    <a href="#services">Servicios</a>
+                    <a href="#contact">Contacto</a>
+                </nav>
+        </article>
+    </header>
+    <section class="hero-home hero-image" style="--hero-image: url(./img/portada.jpg); --attachment: fixed">
+        <article class="hero-image-opacity" style="--hero-opacity: var(--gradient)">
+            <h1>Potencia tus ventas al menos un 200%</h1>
+            <h3>con una página <i>Web</i> potente</h3>
+            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 284.71,23.19 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+        </article>
+    </section>
+    <section id="about" class="acerca content">
+        <div class="title">
+            <h2>Nuestro Producto</h2>
+        </div>
+        <article class="content-about">
+            <img src="img/ilustracion2.svg" alt="ilustración 1">
+            <aside class="text-about">
+                <div>
+                    <h3><span>1</span> Los Mejores Productos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cum sint iure non ipsam architecto, sed tempore quis consequatur asperiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, consequuntur.</p>
+                </div>
+                <div>
+                    <h3><span>2</span> Los Mejores Productos</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime animi blanditiis laudantium? Amet quasi sequi quisquam ipsam nesciunt omnis modi.</p>
+                </div>
+            </aside>
+        </article>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="content">
+            <div class="title">
+                <h2>Portafolio</h2>
+            </div>
+            <article class="portfolio-cards">
+                <div class="card">
+                    <img class="img-prime" src="img/img1.jpg" alt="Trabajo 1">
+                    <a class="card-active" href="#trabajo-1">
+                        <img src="img/icono1.png" alt="haz clic">
+                        <h4>Haz Clic</h4>
+                    </a>
+                </div>
+                <div class="card">
+                    <img class="img-prime" src="img/img2.jpg" alt="Trabajo 2">
+                    <a class="card-active" href="#trabajo-2">
+                        <img src="img/icono1.png" alt="haz clic">
+                        <h4>Haz Clic</h4>
+                    </a>
+                </div>
+                <div class="card">
+                    <img class="img-prime" src="img/img3.jpg" alt="Trabajo 3">
+                    <a class="card-active" href="#trabajo-3">
+                        <img src="img/icono1.png" alt="haz clic">
+                        <h4>Haz Clic</h4>
+                    </a>
+                </div>
+                <div class="card">
+                    <img class="img-prime" src="img/img4.jpg" alt="Trabajo 4">
+                    <a class="card-active" href="#trabajo-4">
+                        <img src="img/icono1.png" alt="haz clic">
+                        <h4>Haz Clic</h4>
+                    </a>
+                </div>
+                <div class="card">
+                    <img class="img-prime" src="img/img5.jpg" alt="Trabajo 5">
+                    <a class="card-active" href="#trabajo-5">
+                        <img src="img/icono1.png" alt="haz clic">
+                        <h4>Haz Clic</h4>
+                    </a>
+                </div>
+                <div class="card">
+                    <img class="img-prime" src="img/img6.jpg" alt="Trabajo 6">
+                    <a class="card-active" href="#trabajo-6">
+                        <img src="img/icono1.png" alt="haz clic">
+                        <h4>Haz Clic</h4>
+                    </a>
+                </div>
+                <div class="card">
+                    <img class="img-prime" src="img/img7.jpg" alt="Trabajo 7">
+                    <a class="card-active" href="#trabajo-6">
+                        <img src="img/icono1.png" alt="haz clic">
+                        <h4>Haz Clic</h4>
+                    </a>
+                </div>
+                <div class="card">
+                    <img class="img-prime" src="img/img8.jpg" alt="Trabajo 8">
+                    <a class="card-active" href="#trabajo-6">
+                        <img src="img/icono1.png" alt="haz clic">
+                        <h4>Haz Clic</h4>
+                    </a>
+                </div>
+            </article>
+            <article id="trabajo-1" class="modal">
+                <aside class="modal-img">
+                    <a href="#cerrar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.207 12.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"/></svg>
+                    </a>
+                    <img src="img/img1.jpg" alt="Trabajo 1">
+                </aside>
+            </article>
+            <article id="trabajo-2" class="modal">
+                <aside class="modal-img">
+                    <a href="#cerrar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.207 12.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"/></svg>
+                    </a>
+                    <img src="img/img2.jpg" alt="Trabajo 1">
+                </aside>
+            </article>
+            <article id="trabajo-3" class="modal">
+                <aside class="modal-img">
+                    <a href="#cerrar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.207 12.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"/></svg>
+                    </a>
+                    <img src="img/img3.jpg" alt="Trabajo 1">
+                </aside>
+            </article>
+            <article id="trabajo-4" class="modal">
+                <aside class="modal-img">
+                    <a href="#cerrar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.207 12.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"/></svg>
+                    </a>
+                    <img src="img/img4.jpg" alt="Trabajo 1">
+                </aside>
+            </article>
+            <article id="trabajo-5" class="modal">
+                <aside class="modal-img">
+                    <a href="#cerrar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.207 12.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"/></svg>
+                    </a>
+                    <img src="img/img5.jpg" alt="Trabajo 1">
+                </aside>
+            </article>
+            <article id="trabajo-6" class="modal">
+                <aside class="modal-img">
+                    <a href="#cerrar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.207 12.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"/></svg>
+                    </a>
+                    <img src="img/img6.jpg" alt="Trabajo 1">
+                </aside>
+            </article>
+            <article id="trabajo-7" class="modal">
+                <aside class="modal-img">
+                    <a href="#cerrar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.207 12.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"/></svg>
+                    </a>
+                    <img src="img/img7.jpg" alt="Trabajo 1">
+                </aside>
+            </article>
+            <article id="trabajo-8" class="modal">
+                <aside class="modal-img">
+                    <a href="#cerrar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.207 12.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"/></svg>
+                    </a>
+                    <img src="img/img8.jpg" alt="Trabajo 1">
+                </aside>
+            </article>
+        </div>
+    </section>
+    <section class="testimonies content">
+        <div class="title">
+            <h2>Que dicen nuestros clientes</h2>
+        </div>
+        <article class="card-testimonial">
+            <div class="content-img">
+                <img src="img/face1.jpg" alt="Cliente 1">
+            </div>
+            <div>
+                <h3>Nombre Cliente 1</h3>
+                <blockquote>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sunt laborum fuga, aut eveniet commodi."</blockquote>
+            </div>
+        </article>
+        <article class="card-testimonial">
+            <div class="content-img">
+                <img src="img/face2.jpg" alt="Cliente 2">
+            </div>
+            <div>
+                <h3>Nombre Cliente 2</h3>
+                <blockquote>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sunt laborum fuga, aut eveniet commodi."</blockquote>
+            </div>
+        </article>
+    </section>
+    <section id="services" class="sevices">
+        <article class="content">
+            <div class="title">
+                <h2>Nuestros servicios</h2>
+            </div>
+            <div class="services-cards">
+                <aside class="service-card">
+                    <img src="img/ilustracion1.svg" alt="Servicio 1">
+                    <h3>Servicio 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem consectetur enim vitae, laudantium aperiam id.</p>
+                </aside>
+                <aside class="service-card">
+                    <img src="img/ilustracion4.svg" alt="Servicio 2">
+                    <h3>Servicio 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem consectetur enim vitae, laudantium aperiam id.</p>
+                </aside>
+                <aside class="service-card">
+                    <img src="img/ilustracion3.svg" alt="Servicio 3">
+                    <h3>Servicio 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem consectetur enim vitae, laudantium aperiam id.</p>
+                </aside>
+            </div>
+        </article>
+    </section>
+    <footer id="contact" class="contact">
+        <article class="content">
+            <div class="contact-options">
+                <aside>
+                    <div class="content-h3">
+                        <h3>Teléfono</h3>
+                    </div>
+                    <a href="tel:+584126673321"><small>+584126673321</small></a>
+                </aside>
+                <aside>
+                    <div class="content-h3">
+                        <h3>Email</h2>
+                    </div>
+                    <a href="mailto:ivannyjimenez@yahoo.com"><small>ivannyjimenez@yahoo.com</small></a>
+                </aside>
+                <aside>
+                    <div class="content-h3">
+                        <h3>Ubicación</h3>
+                    </div>
+                    <p><small>Venezuela</small></p>
+                </aside>
+            </div>
+            <div class="footer">
+                <h6>© i2designstudio | Ivanny Jimenez </h6>
+            </div>
+        </article>
+    </footer>
+
+</body>
+</html>
